@@ -1,0 +1,225 @@
+h2 {
+    color: rgb(205, 39, 130);
+}
+
+.nav-opcao {
+    text-decoration: none;
+    color: #792044;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.nav-opcao:hover {
+    background-color: white;
+    border-color: #e9a0bf;
+    color: #bd286f;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+    header {
+        background: linear-gradient(120deg, #f9c4d9, #ffe8f1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 18px 30px;
+        margin: 20px;
+        border: 1px solid #f3d0df;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px #bd286f12;
+    }
+
+
+
+
+    *{margin:0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.img-eu {
+    width: 100px;
+    height: px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px #8f245720;
+}
+   .div-trabalho {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.div-trabalho h2 {
+    color: #a51e5b;
+    font-size: 21px;
+    margin: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    padding: 12;
+    border:1px solid #ccc;
+    border-radius: 6px;
+}
+
+.rodape {
+    background: linear-gradient(135deg, #ffc5dc, #ffe1ec);
+    color: #7c2850;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 16px 16px 0 0;
+}
+
+.rodape h3 {
+    color: #bd286f;
+    margin-bottom: 5px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 18px 0;
+}
+
+.redes-sociais a {
+    color: #bd286f;
+    text-decoration: none;
+    border: 1px solid #bd286f;
+    padding: 7px 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    background-color: #bd286f;
+    color: white;
+}
+
+.rodape hr {
+    border: none;
+    border-top: 1px solid #e9a0bf;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+
+/* Fundo rosinha das seções */
+main section {
+    background-color: #fff0f6;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #f8d4e3;
+}
+
+
+main hr {
+    border: none;
+    border-top: 2px solid #f3c1d5;
+    margin: 20px 0;
+}
+
+.habilidades{
+    background-color: #f3c1d5;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.projetos{
+    background-color: #f3c1d5;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.form{
+    background-color:white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.resposta{
+    background-color:white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 20px; 
+}
+
+.contato{
+    background-color:white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px; 
+}
+
+.section-padrao{
+    padding: 15px;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+.button {
+    background-color: #cd2782;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a91e69;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(205, 39, 130, 0.25);
+}
+
+/* deixar campos centralizados*/
+body {
+    padding: 25px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, p, ul, form {
+    margin-bottom: 15px;
+}
